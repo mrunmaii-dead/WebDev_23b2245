@@ -1,0 +1,33 @@
+.home {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    width:100vw;
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjusted to cover the entire viewport */
+    height: 100%; /* Adjusted to cover the entire viewport */
+    object-fit: cover;
+    z-index: -1; /* Ensure video is behind the content */
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: rgb(227, 234, 134);
+    text-shadow: 2px 2px 4px rgb(255, 0, 225);
+}
+
+.title h1 {
+    font-size: 3em;
+}
+
+  

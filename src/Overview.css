@@ -1,0 +1,87 @@
+.overview {
+    display: flex;
+    flex-direction:column;
+    height: 100vh; /* Adjust as needed */
+    position: relative; /* Ensure video positioning works */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjusted to cover the entire viewport */
+    height: 100%; /* Adjusted to cover the entire viewport */
+    object-fit: cover;
+    z-index: -1; /* Ensure video is behind the content */
+}
+.container {
+    width: 50%; /* Set the desired width of the container */
+    max-width: 1200px; /* Set a maximum width */
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.head {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    
+    justify-content: center;
+    align-items: center;
+    
+    color: rgb(227, 234, 134);
+    text-shadow: 2px 2px 4px rgb(255, 0, 225);
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+}
+.content-box {
+    color: black;
+    padding: 20px;
+    /* Semi-transparent grey background */
+    border-radius: 10px;
+}
+.but {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center; /* Center vertically */
+   padding: 20px;
+   /* Semi-transparent white background */
+}
+
+.but button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color:#2489aa; /* Reddish background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.but button:hover {
+    background-color: #ee9f9f; /* Lighter shade on hover */
+}
+
+.second-video-container {
+    display: flex;
+    justify-content: center; /* Center the video */
+    margin-top: 5px; /* Space between content and video */
+    width: 100%;
+    padding:20px;
+}
+
+.second-video {
+    width: 40%; /* Set the desired width for the video */
+    max-width: 600px; /* Set a maximum width for the video */
+    height: 40%;
+    border-radius: 10px;
+    padding:20px;
+}
+

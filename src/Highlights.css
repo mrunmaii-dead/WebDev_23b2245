@@ -1,0 +1,31 @@
+
+  
+.world-record-video {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+.wr-video {
+    width: 40%;
+    
+    max-width: 800px; /* Adjust as needed */
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:1px;
+  }
+  
+  .world-record-title {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(227, 234, 134);
+    text-shadow: 2px 2px 4px rgb(255, 0, 225);
+    z-index: 1;
+  }
