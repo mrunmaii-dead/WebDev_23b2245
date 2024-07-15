@@ -1,0 +1,22 @@
+.note-container{
+    height : 100%;
+    padding:60px;
+   
+
+}
+.note-container_notes{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+}
+.light-mode-note-container {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+.dark-mode-note-container {
+    background-color: #686767;
+    color: #ffffff;
+  }

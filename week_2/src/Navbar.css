@@ -1,0 +1,67 @@
+ .light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .dark-mode .navbar,
+  .dark-mode .App {
+    background-color: #333333;
+  }
+  
+  .dark-mode .navbar-brand,
+  .dark-mode .nav-link,
+  .dark-mode .form-control,
+  .dark-mode .btn {
+    color: #ffffff;
+  }
+  
+  .dark-mode .form-control {
+    background-color: #686767;
+    
+    border-color: #686767;
+    border-radius: 10px;
+  }
+  
+  .dark-mode .btn {
+    background-color:  #686767;
+    border-color:#686767;
+    border-radius: 10
+    px;
+  } 
+  
+.navbar-brand-icon {
+    font-size: 1.3rem; /* Adjust the brand icon size */
+  }
+  
+  .navbar-brand-icon svg {
+    margin-right: 0.5rem; /* Adjust the space between the icon and the text */
+  }
+  
+  .nav-link-icon {
+    font-size: 1.2rem; /* Adjust the link text size */
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link-icon svg {
+    margin-right: 0.5rem; /* Adjust the space between the icon and the text */
+  }
+  
+  .form-inline {
+    flex-grow: 1;
+  }
+  
+  .form-inline .form-control {
+    width: 150%; /* Make the search bar wider */
+    max-width: 600px; /* Adjust the maximum width as needed */
+  }
+  
+  .form-inline .btn {
+    font-size: 1.2rem; /* Adjust the search button icon size */
+  }
+ 

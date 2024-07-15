@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.App{
+  height: 100%;
+  width:100%;
+  display:flex;
+  gap:15px;
+  padding : 20px;
+
+
+}
+.custom-scroll::-webkit-scrollbar{
+  width:8px
+}
+.custom-scroll::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+.custom-scroll::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background-color: lightgrey;
+  transition: 300ms;
+}
+/* App.css */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark-mode .navbar, 
+.dark-mode .App {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark-mode .navbar-brand,
+.dark-mode .nav-link,
+.dark-mode .form-control,
+.dark-mode .btn {
+  color: #ffffff;
+}
+
+.dark-mode .form-control {
+  background-color: #555555;
+  border-color: #777777;
+}
+
+.dark-mode .btn {
+  background-color: #777777;
+  border-color: #999999;
+}
+.light-mode-sidebar {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode-sidebar {
+  background-color: #333333;
+  color: #ffffff;
+}
+.light-mode-note-container {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode-note-container {
+  background-color: #333333;
+  color: #ffffff;
+}
